@@ -4,6 +4,7 @@ import java.lang.*;
 public class Mainclass {
 	public static void main(String arg[])
 	{
+		/*
 		Scanner scan=new Scanner(System.in);
 		MySpecialLinkedListUtils method= new MySpecialLinkedListUtils();
 		Node head=new Node(5);
@@ -22,7 +23,7 @@ public class Mainclass {
 		}
 		method.show(head);
 
-		
+		*/
 	}
 	
 }
