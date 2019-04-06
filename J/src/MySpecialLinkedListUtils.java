@@ -23,7 +23,7 @@ public class MySpecialLinkedListUtils
 			{
 				s[3]=current.value;
 			}
-			if(s[4]<current.value)
+			if(current.value<s[4])
 			{
 				s[4]=current.value;
 			}
