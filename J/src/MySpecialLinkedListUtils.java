@@ -149,23 +149,9 @@ public class MySpecialLinkedListUtils
 	}
 	public static boolean palindrome(Node head)
 	{
-		head=reverse(head);
-		Node head2=new Node(head.value);
-		Node current=head;
-		Node current2=head2;
-		while(current!=null)
-		{
-			if(current!=head)
-			{
-				current2.next=new Node(current.value);
-				current2=current2.next;
-			}
-			current =current.next;
-		}
-		head=reverse(head);
-		Node second=head2;
 		Node first=head;
-		while(first!=null)
+		Node second=reverse(median(head).next);
+		while(second!=null)
 		{
 			if(first.value!=second.value)
 			{
